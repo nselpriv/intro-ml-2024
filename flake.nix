@@ -21,7 +21,7 @@
           pkgs.python311Packages.numpy
           pkgs.python311Packages.scikit-learn
           pkgs.python311Packages.pytorch
-	  pkgs.python311Packages.skimage
+          pkgs.python311Packages.scikit-image
         ];
 
         # Shell hook to customize terminal and display Python version & packages
