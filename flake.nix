@@ -16,7 +16,7 @@
       devShells.default = pkgs.mkShell {
         buildInputs = [
           pkgs.python311
-          pkgs.anaconda
+          pkgs.rPackages.Anaconda
         ];
 
         # Optional: Shell hook to display Anaconda version
